@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  overflow-y: visible;
+  overflow-x: hidden;
+  font-size: 1.15rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #3d405b;
+}
+
+.container {
+  margin: 1rem 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+  color: #81b29a;
+}
+.pokemon-list{
+  display: flex;
+  gap: 1rem;
+}
+.pokemon-card{
+  background-color: #7e82aa;
+  width: 200px;
+  height: 250px;
+}

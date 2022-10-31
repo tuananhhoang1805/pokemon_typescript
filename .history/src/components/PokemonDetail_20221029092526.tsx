@@ -1,0 +1,20 @@
+import React from "react";
+
+interface Props {
+  id: number;
+  name: string;
+  image: string;
+}
+const PokemonDetail: React.FC<Props> = (props) => {
+  const { id, name, image } = props;
+  return (
+    <div>
+      <div>{name}</div>
+      <div>
+        <img src={iamge} width={100} height={60} alt={name} />
+      </div>
+    </div>
+  );
+};
+
+export default PokemonDetail;
